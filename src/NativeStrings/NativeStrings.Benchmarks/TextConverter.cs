@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using Newtonsoft.Json;
 
 namespace NativeStrings.Benchmarks
@@ -44,7 +45,8 @@ namespace NativeStrings.Benchmarks
 
     public void ConvertTextToChars(List<string> strings)
     {
-      var writer = new StreamWriter(_fileName + ".bin");
+      var file = File.OpenWrite(_fileName + ".bin");
+      var writer = new StreamWriter(file,Encoding.Unicode);
       foreach (var value in strings)
       {
         writer.Write(value);

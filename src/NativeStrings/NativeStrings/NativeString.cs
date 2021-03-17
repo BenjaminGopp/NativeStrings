@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.ExceptionServices;
 
 namespace NativeStrings
 {
@@ -22,5 +23,11 @@ namespace NativeStrings
       }
     }
 
+
+    public override string ToString()
+    {
+      ReadOnlySpan<char> s = this;
+      return s.ToString();
+    }
   }
 }
