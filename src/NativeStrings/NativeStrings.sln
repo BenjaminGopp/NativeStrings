@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeStrings", "NativeStrings\NativeStrings.csproj", "{6CEFEFA2-D9EB-4FE4-B682-DC1CA2EF107A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeStrings.Benchmarks", "NativeStrings.Benchmarks\NativeStrings.Benchmarks.csproj", "{58D94BC2-FE3C-435F-A99A-0D4A14A71AF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CEFEFA2-D9EB-4FE4-B682-DC1CA2EF107A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEFEFA2-D9EB-4FE4-B682-DC1CA2EF107A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEFEFA2-D9EB-4FE4-B682-DC1CA2EF107A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEFEFA2-D9EB-4FE4-B682-DC1CA2EF107A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D94BC2-FE3C-435F-A99A-0D4A14A71AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D94BC2-FE3C-435F-A99A-0D4A14A71AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D94BC2-FE3C-435F-A99A-0D4A14A71AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D94BC2-FE3C-435F-A99A-0D4A14A71AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACDA4A81-84CD-441D-AF85-4738CB54E555}
+	EndGlobalSection
+EndGlobal
