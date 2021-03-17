@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text.Json.Serialization;
+using BenchmarkDotNet.Running;
 
 namespace NativeStrings.Benchmarks
 {
@@ -6,7 +8,14 @@ namespace NativeStrings.Benchmarks
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      //var c = new TextConverter();
+      //c.ConvertText("Bibel.txt");
+      BenchmarkRunner.Run<ReadBenchmarks>();
+      //BenchmarkRunner.Run<WriteBenchmarks>();
+
+      Console.WriteLine();
     }
+
+
   }
 }
